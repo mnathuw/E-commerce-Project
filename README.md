@@ -22,8 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-# E-commerce-Project
-# E-commerce-Project
-# E-commerce-Project
-# E-commerce-Project
-# E-commerce-Project

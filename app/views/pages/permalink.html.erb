@@ -1,0 +1,30 @@
+<h2><%= @page.title %></h2>
+<article>
+  <p><%= @page.content %></p>
+  <% if  @page.permalink == 'about_us'%>
+      <h4>About Us</h4>
+      <p>The digital age with the rise of YouTube, iTunes, Netflix, etc.
+      has made the disc obsolete. However, there are still many people who love the CD with many memories.
+      And especially when it also gradually becomes a hobby of collection.</p>
+
+      <p>Speaking of which, many people will feel discouraged. In fact, the original CD stores in Winnipeg have not all disappeared.
+      And lucky for you to have known us. Because the place that we refer to here is the place to sell original CDs in Winnipeg that you are looking for.
+      That is Ginger Bear.</p>
+
+      <p>With the growing trend of e-commerce, you can buy original CD with just one click. You just need to go to the Ginger Bear website, choose your favorite CD or contact them directly.
+      If you are tired of listening to music on YouTube, iTunes and want to find memories with familiar CDs, come to Ginger Bear.
+      With many years of experience and top reputation, this will be a place to sell original CDs in Winnipeg that make you satisfied.
+      Quickly find and buy discs at Ginger Bear to relive the sky of memories.
+      </p>
+      <div>
+      <%= image_tag("Ginger_Bear.PNG", :alt => "Ginger_Bear")%>
+      </div>
+  <%elsif @page.permalink == 'contact'  %>
+      <p>📍: 160 Princess St, Winnipeg, MB R3B 1K9</p>
+      <p>⏰: Mon - Sat: 7AM - 9PM, Sun: 9AM - 9PM.</p>
+      <p>📱: (431) 336-3457</p>
+      <p>🌐: www.gingerbear.com</p>
+  <% end %>
+
+</article>
+<p>Last updated: <%= @page.updated_at %></p>
